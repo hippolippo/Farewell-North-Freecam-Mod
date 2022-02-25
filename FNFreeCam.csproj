@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>FNFreeCam</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>Libraries/BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Libraries/Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyX">
+      <HintPath>Libraries/0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>Libraries/BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Libraries/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Libraries/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Libraries/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputSystem">
+      <HintPath>Libraries/Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="FarewellNorth.Camera">
+      <HintPath>Libraries/FarewellNorth.Camera.dll</HintPath>
+    </Reference>
+    <Reference Include="FarewellNorth.Managers">
+      <HintPath>Libraries/FarewellNorth.Managers.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Libraries/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="FarewellNorth.Coloring">
+      <HintPath>Libraries/FarewellNorth.Coloring.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Rendering.Universal">
+      <HintPath>Libraries/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="FarewellNorth.Core.Rendering">
+      <HintPath>Libraries/FarewellNorth.Core.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="FarewellNorth.Core.Settings">
+      <HintPath>Libraries/FarewellNorth.Core.Settings.dll</HintPath>
+    </Reference>
+	<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+</Project>
