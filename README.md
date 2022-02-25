@@ -1,6 +1,6 @@
 # Farewell North Freecam Mod
 By Hippolippo for https://store.steampowered.com/app/1432850/Farewell_North/ (demo version)
-<h2<> What does this mod do? </h2>
+<h2> What does this mod do? </h2>
 This mod will allow you to enter a second camera which you have full control over to allow for better exploration of the world.
 <h2> Usage/Controls </h2>
 <ul>
